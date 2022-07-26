@@ -143,7 +143,7 @@ if enter == (""):
                                     print(color.BOLD + "\n____" + color.END)
                                     print(color.BOLD + color.CYAN + 'l A l' + color.END)
                                     print("Oh, her favorite color? Let me think...")
-                                    print("Nope, I don't think I remember. Her ") + color.BLUE + ("art teacher") + color.END + (" probably knows though!")
+                                    print("Nope, I don't think I remember. Her " + color.BLUE + ("art teacher") + color.END + (" probably knows though!")) 
                           if who == ("B") or who == ("b"): #drink
                               print(color.BOLD + "\n____" + color.END)
                               print(color.BOLD + color.YELLOW + 'l B l' + color.END)
@@ -302,7 +302,7 @@ if enter == (""):
                                 print("As you flip open a page, you see the words " + name + "'s memory file. You take it out, and it suddenly disappears in a shower of light. You remember everything! You, Indra, and 'D' who is actually called Ethan rejoice as you celebrate Indra's birthday with your memory. ")
                                 print(color.BOLD + "THE END" + color.END)
                                 break
-                                exit()
+                                quit()
                               if (point < 5):
                                 print(color.BOLD + "\n _________" + color.END)
                                 print(color.BOLD + 'l Narrator l' + color.END)
